@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #24272E;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.scoreBord{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    border-radius: 4px;
+    padding: 25px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.badge{
+    background-color: darkred;
+    color: white;
+    padding: 2px 10px;
+    font-size: 25px;
+}
+
+#userId{
+    position: absolute;
+    top: 35px;
+    left: -30px;
+}
+
+#compId{
+    position: absolute;
+    top: 35px;
+    right: -37px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result p{
+    text-align: center;
+    color: violet;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.choise{
+    display: inline-block;
+    margin: 10px;
+    border: white 4px solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.choise:hover{
+    cursor: grab;
+}
+
+#p{
+    background-image: url(paper.png);
+    background-position: center;
+}
+
+#r{
+    background-image: url(rock.png);
+    background-position: center;
+}
+
+#s{
+    background-image: url(sesor.png);
+    background-position: center;
+}
+
+#msg{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+    margin: 15px;
+}
